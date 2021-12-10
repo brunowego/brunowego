@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://brunowego.com">
-    <img src="public/assets/images/icon.svg" width="88" alt="BW Icon">
+    <img src="https://assets.brunowego.com/images/icon.svg" width="88" alt="BW Icon">
   </a>
   <h1>Bruno Wego</h1>
   <strong>Problem solver · Collaborator · Friendly · Passion for learning · Resourceful · Resilient · Detail-oriented · Enthusiastic · Self-motivated · Self-taught · UI/UX lover</strong>
