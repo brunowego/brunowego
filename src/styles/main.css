@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mt-16 mb-8 text-5xl font-extrabold tracking-tight;
+  }
+
+  p {
+    @apply mb-4
+  }
+}
