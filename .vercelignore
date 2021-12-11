@@ -1,0 +1,10 @@
+/*
+
+!/public
+!/src
+!/next-env.d.ts
+!/next.config.mjs
+!/package*.json
+!/postcss.config.js
+!/tailwind.config.cjs
+!/tsconfig.json
