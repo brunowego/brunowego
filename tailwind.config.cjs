@@ -1,7 +1,6 @@
 const tailwindConfig = {
   mode: 'jit',
-  purge: ['./src/**/*.{ts,tsx}'],
-  darkMode: false,
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
     extend: {},
   },
