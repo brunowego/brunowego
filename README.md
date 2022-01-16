@@ -4,11 +4,10 @@
   <a href="https://brunowego.com">
     <img src="https://assets.brunowego.com/images/icon.svg" width="88" alt="BW Icon">
   </a>
-  <h1>Bruno Wego</h1>
-  <strong>Problem solver · Collaborator · Friendly · Passion for learning · Resourceful · Resilient · Detail-oriented · Enthusiastic · Self-motivated · Self-taught · UI/UX lover</strong>
+  <h2>Bruno Wego</h2>
 </div>
 
-<br />
+<p align="center">Dedicate yourself every day</p>
 
 <div align="center">
   <a href="https://twitter.com/brunowego">
@@ -19,9 +18,9 @@
 <br />
 
 <div align="center">
-  <a href="https://stackoverflow.com/users/4173913/bruno-wego"><strong>Stack Overflow</strong></a>
+  <a href="https://stackoverflow.com/users/4173913/bruno-wego">Stack Overflow</a>
   •
-  <a href="https://linkedin.com/in/brunowego/"><strong>LinkedIn</strong></a>
+  <a href="https://linkedin.com/in/brunowego/">LinkedIn</a>
   •
-  <a href="https://brunowego.com"><strong>Site</strong></a>
+  <a href="https://brunowego.com">Site</a>
 </div>
