@@ -7,7 +7,7 @@
   <h2>Bruno Wego</h2>
 </div>
 
-<p align="center">Dedicate yourself every day</p>
+<p align="center">Entrepreneur, engineer, designer. Dedicate yourself every day.</p>
 
 <div align="center">
   <a href="https://twitter.com/brunowego">
