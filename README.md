@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://brunowego.com">
-    <img src="https://assets.brunowego.com/images/icon.svg" width="88" alt="BW Icon">
+    <img src="https://assets.brunowego.com/images/logomark/any.svg" width="88" alt="Bruno Weg Logomark">
   </a>
   <h2>Bruno Wego</h2>
 </div>
