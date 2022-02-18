@@ -3,6 +3,7 @@
     "autobuild",
     "brunowego",
     "codeql",
+    "commitlint",
     "markdownlint",
     "postcss",
     "predev",
