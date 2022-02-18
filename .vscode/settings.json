@@ -9,5 +9,10 @@
     "tailwindcss",
     "wego"
   ],
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
