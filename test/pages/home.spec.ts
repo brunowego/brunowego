@@ -6,7 +6,7 @@ test.describe('Home Page', () => {
 
     const content = await page.content()
 
-    expect(content).toContain('Hey, I\'m Bruno!')
+    expect(content).toContain("Hey, I'm Bruno!")
     expect(content).toContain('Dedicate yourself every day.')
   })
 })

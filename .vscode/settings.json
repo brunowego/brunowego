@@ -1,13 +1,13 @@
 {
   "cSpell.words": [
-    "Autobuild",
+    "autobuild",
     "brunowego",
     "codeql",
     "markdownlint",
     "postcss",
     "predev",
     "tailwindcss",
-    "Wego"
+    "wego"
   ],
   "javascript.validate.enable": false
 }

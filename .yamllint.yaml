@@ -12,3 +12,5 @@ rules:
   truthy:
     # Allowing 'on' due to: https://github.com/adrienverge/yamllint/issues/158
     allowed-values: ['true', 'false', 'yes', 'no', 'on']
+  comments:
+    min-spaces-from-content: 1
