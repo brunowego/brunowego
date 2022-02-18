@@ -1,2 +1,4 @@
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
 /yarn.lock -diff
 /yarn.lock linguist-generated=true
