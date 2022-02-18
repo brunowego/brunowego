@@ -2,5 +2,4 @@
 # shellcheck disable=SC1091
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged \
-  --concurrent false
+npx lint-staged --concurrent false
