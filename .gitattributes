@@ -1,2 +1,2 @@
-/package-lock.json -diff
-/package-lock.json linguist-generated=true
+/yarn.lock -diff
+/yarn.lock linguist-generated=true
