@@ -2,6 +2,7 @@
 extends: default
 ignore: |
   **/.yarn/**/*
+  **/node_modules/**/*
 rules:
   indentation:
     spaces: 2
