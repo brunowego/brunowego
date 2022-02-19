@@ -635,10 +635,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@brunowego/presets@*, @brunowego/presets@workspace:packages/brunowego-presets":
+  version: 0.0.0-use.local
+  resolution: "@brunowego/presets@workspace:packages/brunowego-presets"
+  peerDependencies:
+    eslint: ~8.9.0
+  languageName: unknown
+  linkType: soft
+
 "@brunowego/web@workspace:apps/web":
   version: 0.0.0-use.local
   resolution: "@brunowego/web@workspace:apps/web"
   dependencies:
+    "@brunowego/presets": "*"
     "@playwright/test": ~1.19.1
     "@tailwindcss/jit": ~0.1.18
     "@types/node": ~17.0.18
