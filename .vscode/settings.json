@@ -17,8 +17,9 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "search.exclude": {
-    "./**/.yarn": true,
-    "./**/.pnp.*": true
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "yarn.lock": true
   },
   "eslint.nodePath": "./.yarn/sdks",
   "typescript.tsdk": "./.yarn/sdks/typescript/lib",
