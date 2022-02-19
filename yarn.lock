@@ -635,7 +635,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^16.2.1":
+"@commitlint/cli@npm:~16.2.1":
   version: 16.2.1
   resolution: "@commitlint/cli@npm:16.2.1"
   dependencies:
@@ -1725,7 +1725,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "brunowego@workspace:."
   dependencies:
-    "@commitlint/cli": ^16.2.1
+    "@commitlint/cli": ~16.2.1
     "@commitlint/config-conventional": ~16.2.1
     "@playwright/test": ~1.19.1
     "@tailwindcss/jit": ~0.1.18

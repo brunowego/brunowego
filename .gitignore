@@ -1,3 +1,4 @@
+/**/node_modules
 /.next
 /.vercel
 /.yarn/*
@@ -7,4 +8,3 @@
 !/.yarn/sdks
 !/.yarn/versions
 /.env
-/.pnp.*
