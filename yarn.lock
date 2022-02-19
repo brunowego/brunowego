@@ -643,11 +643,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@brunowego/tsconfig@*, @brunowego/tsconfig@workspace:packages/brunowego-tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@brunowego/tsconfig@workspace:packages/brunowego-tsconfig"
+  peerDependencies:
+    typescript: ~4.5.5
+  languageName: unknown
+  linkType: soft
+
 "@brunowego/web@workspace:apps/web":
   version: 0.0.0-use.local
   resolution: "@brunowego/web@workspace:apps/web"
   dependencies:
     "@brunowego/presets": "*"
+    "@brunowego/tsconfig": "*"
     "@playwright/test": ~1.19.1
     "@tailwindcss/jit": ~0.1.18
     "@types/node": ~17.0.18

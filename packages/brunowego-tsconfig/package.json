@@ -1,0 +1,13 @@
+{
+  "name": "@brunowego/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "./base.js",
+    "./nextjs.js"
+  ],
+  "peerDependencies": {
+    "typescript": "~4.5.5"
+  },
+  "packageManager": "yarn@3.1.1"
+}

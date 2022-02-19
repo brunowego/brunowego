@@ -1,0 +1,3 @@
+# @brunowego/tsconfig
+
+TBD
