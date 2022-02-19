@@ -1,10 +1,11 @@
 /*
 
-!/public
-!/src
-!/next-env.d.ts
-!/next.config.mjs
-!/package*.json
-!/postcss.config.js
-!/tailwind.config.cjs
-!/tsconfig.json
+!/apps/web/public
+!/apps/web/src
+!/apps/web/next-env.d.ts
+!/apps/web/next.config.mjs
+!/apps/web/package.json
+!/apps/web/postcss.config.js
+!/apps/web/tailwind.config.cjs
+!/apps/web/tsconfig.json
+!/apps/web/yarn.lock

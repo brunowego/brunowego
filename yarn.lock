@@ -635,6 +635,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@brunowego/web@workspace:apps/web":
+  version: 0.0.0-use.local
+  resolution: "@brunowego/web@workspace:apps/web"
+  dependencies:
+    "@playwright/test": ~1.19.1
+    "@tailwindcss/jit": ~0.1.18
+    "@types/node": ~17.0.18
+    "@types/react": ~17.0.39
+    autoprefixer: ~10.4.2
+    eslint: ~8.9.0
+    eslint-config-next: ~12.1.0
+    next: ~12.1.0
+    postcss: ~8.4.6
+    react: ~17.0.2
+    react-dom: ~17.0.2
+    tailwindcss: ~3.0.23
+    typescript: ~4.5.5
+  languageName: unknown
+  linkType: soft
+
 "@commitlint/cli@npm:~16.2.1":
   version: 16.2.1
   resolution: "@commitlint/cli@npm:16.2.1"
@@ -1707,8 +1727,8 @@ __metadata:
   linkType: hard
 
 "browserslist@npm:^4.17.5, browserslist@npm:^4.19.1":
-  version: 4.19.2
-  resolution: "browserslist@npm:4.19.2"
+  version: 4.19.3
+  resolution: "browserslist@npm:4.19.3"
   dependencies:
     caniuse-lite: ^1.0.30001312
     electron-to-chromium: ^1.4.71
@@ -1717,33 +1737,9 @@ __metadata:
     picocolors: ^1.0.0
   bin:
     browserslist: cli.js
-  checksum: c213d87c1d15a70ebbba9edd0d217177ceda28fec91d51eee6afb7aafec9149668a32b78adb99bed3a83e572377fdc427268abc5e3d78cbcce6a5521f1f4efda
+  checksum: c28958313dd17f345dd6e26379cc863126cd7d855588e57a1ed9e552a1135d64f05ec57063b48fff0d94a9b785bd248e9472c2d63ce8460ca56fc2444f5a1e66
   languageName: node
   linkType: hard
-
-"brunowego@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "brunowego@workspace:."
-  dependencies:
-    "@commitlint/cli": ~16.2.1
-    "@commitlint/config-conventional": ~16.2.1
-    "@playwright/test": ~1.19.1
-    "@tailwindcss/jit": ~0.1.18
-    "@types/node": ~17.0.18
-    "@types/react": ~17.0.39
-    autoprefixer: ~10.4.2
-    eslint: ~8.9.0
-    eslint-config-next: ~12.1.0
-    husky: ~7.0.4
-    lint-staged: ~12.3.4
-    next: ~12.1.0
-    postcss: ~8.4.6
-    react: ~17.0.2
-    react-dom: ~17.0.2
-    tailwindcss: ~3.0.23
-    typescript: ~4.5.5
-  languageName: unknown
-  linkType: soft
 
 "buffer-crc32@npm:~0.2.3":
   version: 0.2.13
@@ -4863,6 +4859,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:~2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  languageName: node
+  linkType: hard
+
 "pretty-format@npm:^27.2.5, pretty-format@npm:^27.5.1":
   version: 27.5.1
   resolution: "pretty-format@npm:27.5.1"
@@ -5210,6 +5215,20 @@ __metadata:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
+
+"root-workspace-0b6124@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root-workspace-0b6124@workspace:."
+  dependencies:
+    "@commitlint/cli": ~16.2.1
+    "@commitlint/config-conventional": ~16.2.1
+    eslint: ~8.9.0
+    husky: ~7.0.4
+    lint-staged: ~12.3.4
+    prettier: ~2.5.1
+    turbo: ~1.1.3
+  languageName: unknown
+  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
@@ -5822,6 +5841,137 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
+  languageName: node
+  linkType: hard
+
+"turbo-darwin-64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-darwin-64@npm:1.1.3"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"turbo-darwin-arm64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-darwin-arm64@npm:1.1.3"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"turbo-freebsd-64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-freebsd-64@npm:1.1.3"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"turbo-freebsd-arm64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-freebsd-arm64@npm:1.1.3"
+  conditions: os=freebsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"turbo-linux-32@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-32@npm:1.1.3"
+  conditions: os=linux & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"turbo-linux-64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-64@npm:1.1.3"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"turbo-linux-arm64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-arm64@npm:1.1.3"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"turbo-linux-arm@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-arm@npm:1.1.3"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"turbo-linux-mips64le@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-mips64le@npm:1.1.3"
+  conditions: os=linux & cpu=mips64el
+  languageName: node
+  linkType: hard
+
+"turbo-linux-ppc64le@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-linux-ppc64le@npm:1.1.3"
+  conditions: os=linux & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"turbo-windows-32@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-windows-32@npm:1.1.3"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"turbo-windows-64@npm:1.1.3":
+  version: 1.1.3
+  resolution: "turbo-windows-64@npm:1.1.3"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"turbo@npm:~1.1.3":
+  version: 1.1.3
+  resolution: "turbo@npm:1.1.3"
+  dependencies:
+    turbo-darwin-64: 1.1.3
+    turbo-darwin-arm64: 1.1.3
+    turbo-freebsd-64: 1.1.3
+    turbo-freebsd-arm64: 1.1.3
+    turbo-linux-32: 1.1.3
+    turbo-linux-64: 1.1.3
+    turbo-linux-arm: 1.1.3
+    turbo-linux-arm64: 1.1.3
+    turbo-linux-mips64le: 1.1.3
+    turbo-linux-ppc64le: 1.1.3
+    turbo-windows-32: 1.1.3
+    turbo-windows-64: 1.1.3
+  dependenciesMeta:
+    turbo-darwin-64:
+      optional: true
+    turbo-darwin-arm64:
+      optional: true
+    turbo-freebsd-64:
+      optional: true
+    turbo-freebsd-arm64:
+      optional: true
+    turbo-linux-32:
+      optional: true
+    turbo-linux-64:
+      optional: true
+    turbo-linux-arm:
+      optional: true
+    turbo-linux-arm64:
+      optional: true
+    turbo-linux-mips64le:
+      optional: true
+    turbo-linux-ppc64le:
+      optional: true
+    turbo-windows-32:
+      optional: true
+    turbo-windows-64:
+      optional: true
+  bin:
+    turbo: bin/turbo
+  checksum: 92e20481bdbf0291ec00a04dc3d621658e91dc739788dd150ef5cf712c076dc50ab44020f46eb3d31f9aa08437c778a1184f1e357dd46b229f35447aed9adf0d
   languageName: node
   linkType: hard
 
