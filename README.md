@@ -7,7 +7,7 @@
   <h2>Bruno Wego</h2>
 </div>
 
-<p align="center">Entrepreneur, engineer, designer and trader. Dedicate yourself every day.</p>
+<p align="center">Polymath. SRE Engineer, Cyber Security Analyst, Software Engineer and Investment Strategist. Dedicate yourself every day.</p>
 
 <div align="center">
   <a href="https://twitter.com/brunowego">
